@@ -1,0 +1,50 @@
+﻿
+@using System.Web.Optimization
+@{
+    ViewBag.Title = "Navbar";
+}
+<div class="container-fluid">
+    <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand">Librio</a>
+    </div>
+    <div class="collapse navbar-collapse">
+        <div>
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="#">Despre noi</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="https://www.librarius.md/">Carti</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="https://www.elefant.md/hp-carte">Oferte</a></li>
+            </ul>
+        </div>
+        <div style="float:right;">
+            <form role="form" class="navbar-form form-inline">
+                <div class="form-group">
+                    <label for="email"></label>
+                    <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="password"></label>
+                    <input type="password" class="form-control" id="password" placeholder="Introduce-ti parola">
+                </div>
+                <button type="button" class="btn btn-primary btn-md">
+                    <span class="glyphicon glyphicon-glyphicon glyphicon-log-in" aria-hidden="true"
+                          style="color:white"></span> Confirma-ti identitatea
+                </button>
+                <button type="button" class="btn btn-warning btn-md">
+                    <span class="glyphicon glyphicon-glyphicon glyphicon-user" aria-hidden="true"
+                          style="color:white"></span><a class="nav-link" href="/Authentification/SignUp">Inregistreaza-te</a>
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
