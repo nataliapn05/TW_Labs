@@ -46,7 +46,7 @@
     <Compile Include="Core\ModeratorAPI.cs" />
     <Compile Include="Core\UserAPI.cs" />
     <Compile Include="Interfaces\ISession.cs" />
-    <Compile Include="LogicBl\SessionBl.cs" />
+    <Compile Include="SessionBl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,18 +1,19 @@
 ﻿using eUseControl.BusinessLogic.Core;
 using eUseControl.BusinessLogic.Interfaces;
+using eUseControl.Domain.Entities.User;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace eUseControl.BusinessLogic.LogicBl
+namespace eUseControl.BusinessLogic
 {
-    class SessionBl: UserAPI, ISession
+    class SessionBl : UserAPI, ISession
     {
-        public bool GetUserSessionStatus()
+        public ULoginResp UserLogin(ULoginData data)
         {
-            return UserSessionStatus();
+            return new ULoginResp();
         }
     }
 }

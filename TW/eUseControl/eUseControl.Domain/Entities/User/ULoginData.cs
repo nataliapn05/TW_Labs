@@ -8,9 +8,9 @@ namespace eUseControl.Domain.Entities.User
 {
     public class ULoginData
     {
-        public string Login { get; set; }
+        public string Credential { get; set; }
         public string Password { get; set; }
-        public string UIp { get; set; }
-        public DateTime UserLTime { get; set; }
+        public string LoginIp { get; set; }
+        public DateTime LoginDateTime { get; set; }
     }
 }

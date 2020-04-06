@@ -1,4 +1,5 @@
-﻿using System;
+﻿using eUseControl.Domain.Entities.User;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,6 @@ namespace eUseControl.BusinessLogic.Interfaces
 {
     public interface ISession
     {
-        bool GetUserSessionStatus();
+        ULoginResp UserLogin(ULoginData data);
     }
 }
