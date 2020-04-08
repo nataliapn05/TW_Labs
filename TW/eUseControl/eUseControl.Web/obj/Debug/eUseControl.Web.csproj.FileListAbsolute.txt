@@ -237,3 +237,9 @@ D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.Web\bin\e
 D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.Web\bin\eUseControl.Domain.dll
 D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.Web\bin\eUseControl.BusinessLogic.pdb
 D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.Web\bin\eUseControl.Domain.pdb
+D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.Web\bin\EntityFramework.dll
+D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.Web\bin\EntityFramework.SqlServer.dll
+D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.Web\bin\eUseControl.BusinessLogic.dll.config
+D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.Web\bin\eUseControl.Domain.dll.config
+D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.Web\bin\EntityFramework.xml
+D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.Web\bin\EntityFramework.SqlServer.xml

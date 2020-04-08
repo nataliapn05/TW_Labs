@@ -6,3 +6,9 @@ D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.Domain\ob
 D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.Domain\obj\Debug\eUseControl.Domain.csproj.CopyComplete
 D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.Domain\obj\Debug\eUseControl.Domain.dll
 D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.Domain\obj\Debug\eUseControl.Domain.pdb
+D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.Domain\bin\Debug\eUseControl.Domain.dll.config
+D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.Domain\bin\Debug\EntityFramework.dll
+D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.Domain\bin\Debug\eUseControl.Helpers.dll.config
+D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.Domain\bin\Debug\EntityFramework.xml
+D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.Domain\bin\Debug\EntityFramework.SqlServer.xml

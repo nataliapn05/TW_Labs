@@ -8,3 +8,10 @@ D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.BusinessL
 D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.BusinessLogic\obj\Debug\eUseControl.BusinessLogic.csproj.CopyComplete
 D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.BusinessLogic\obj\Debug\eUseControl.BusinessLogic.dll
 D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.BusinessLogic\obj\Debug\eUseControl.BusinessLogic.pdb
+D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.BusinessLogic\bin\Debug\eUseControl.BusinessLogic.dll.config
+D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.BusinessLogic\bin\Debug\EntityFramework.dll
+D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.BusinessLogic\bin\Debug\EntityFramework.SqlServer.dll
+D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.BusinessLogic\bin\Debug\eUseControl.Domain.dll.config
+D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.BusinessLogic\bin\Debug\eUseControl.Helpers.dll.config
+D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.BusinessLogic\bin\Debug\EntityFramework.xml
+D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.BusinessLogic\bin\Debug\EntityFramework.SqlServer.xml

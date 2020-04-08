@@ -1,5 +1,4 @@
-﻿
-@using System.Web.Optimization
+﻿@using System.Web.Optimization
 @{
     ViewBag.Title = "Navbar";
 }
@@ -15,7 +14,7 @@
     <div class="collapse navbar-collapse">
         <div>
             <ul class="nav navbar-nav navbar-left">
-                <li><a href="#">Despre noi</a></li>
+                <li><a href="@Url.Action("Index","Home")">Despre noi</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-left">
                 <li><a href="https://www.librarius.md/">Carti</a></li>
@@ -40,7 +39,7 @@
                 </button>
                 <button type="button" class="btn btn-warning btn-md">
                     <span class="glyphicon glyphicon-glyphicon glyphicon-user" aria-hidden="true"
-                          style="color:white"></span><a class="nav-link" href="@Url.Action("Index","Login")">Inregistreaza-te</a>
+                          style="color:white"></span><a  href="@Url.Action("Index","Login")">Inregistreaza-te</a>
                 </button>
             </form>
         </div>

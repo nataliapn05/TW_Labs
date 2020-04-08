@@ -22,6 +22,10 @@ namespace eUseControl.Web.Controllers
         }
 
         //Get: Login
+        public ActionResult Index()
+        {
+            return View();
+        }
         [HttpPost] //transmiterea datelor client sau a formularului catre server
         [ValidateAntiForgeryToken]//pentru a preveni falsificarea cererilor între site-uri
         public ActionResult Index(UserLogin login)
