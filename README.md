@@ -1,1 +1,1 @@
-# TW_Labs A fost reincarcat 3 zile in urma din cauza la bug-uri care au fost revizuite
+# TW_Labs A fost reincarcat de curand din cauza la bug-uri care au fost revizuite
