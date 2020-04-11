@@ -4,8 +4,3 @@ D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.Helpers\o
 D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.Helpers\obj\Debug\eUseControl.Helpers.dll
 D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.Helpers\obj\Debug\eUseControl.Helpers.pdb
 D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.Helpers\bin\Debug\eUseControl.Helpers.dll.config
-D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.Helpers\bin\Debug\EntityFramework.dll
-D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.Helpers\bin\Debug\EntityFramework.SqlServer.dll
-D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.Helpers\bin\Debug\EntityFramework.xml
-D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.Helpers\bin\Debug\EntityFramework.SqlServer.xml
-D:\UTM\UTM anul 2\sem 2\TW\1.Github\TW_Labs\TW\eUseControl\eUseControl.Helpers\obj\Debug\eUseControl.Helpers.csproj.CopyComplete

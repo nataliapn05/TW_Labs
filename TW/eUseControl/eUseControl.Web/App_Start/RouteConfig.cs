@@ -20,10 +20,11 @@ namespace eUseControl.Web
             );
 
             routes.MapRoute(
-                name: "Login",
+                name: "Authentification",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Login", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Authentification", action = "Register", id = UrlParameter.Optional }
             );
+
         }
     }
 }

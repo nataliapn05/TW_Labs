@@ -7,7 +7,7 @@ using eUseControl.Web.Models;
 
 namespace eUseControl.Web.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
         public ActionResult Index()
         {

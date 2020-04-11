@@ -9,7 +9,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a href="#" class="navbar-brand">Librio</a>
+        <a href="@Url.Action("Index","Home")" class="navbar-brand">Librio</a>
     </div>
     <div class="collapse navbar-collapse">
         <div>
@@ -25,21 +25,13 @@
         </div>
         <div style="float:right;">
             <form role="form" class="navbar-form form-inline">
-                <div class="form-group">
-                    <label for="email"></label>
-                    <input type="email" class="form-control" id="email" placeholder="Email">
-                </div>
-                <div class="form-group">
-                    <label for="password"></label>
-                    <input type="password" class="form-control" id="password" placeholder="Introduce-ti parola">
-                </div>
-                <button type="button" class="btn btn-primary btn-md">
+                <button type="button" class="btn btn-md" style="background-color:#ffffff">
                     <span class="glyphicon glyphicon-glyphicon glyphicon-log-in" aria-hidden="true"
-                          style="color:white"></span> Confirma-ti identitatea
+                          style="color:#0f0d0d"></span><a href="@Url.Action("Login","Authentification")">  Login</a> 
                 </button>
-                <button type="button" class="btn btn-warning btn-md">
+                <button type="button" class="btn btn-md" style="background-color: #ffffff">
                     <span class="glyphicon glyphicon-glyphicon glyphicon-user" aria-hidden="true"
-                          style="color:white"></span><a  href="@Url.Action("Index","Login")">Inregistreaza-te</a>
+                          style="color: #0f0d0d"></span><a  href="@Url.Action("Register","Authentification")"> Register</a>
                 </button>
             </form>
         </div>

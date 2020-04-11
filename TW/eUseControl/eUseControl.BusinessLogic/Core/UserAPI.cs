@@ -1,16 +1,32 @@
-﻿using System;
+﻿using eUseControl.BusinessLogic.DBModel;
+using eUseControl.Domain.Entities.User;
+using eUseControl.Helpers;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 
 namespace eUseControl.BusinessLogic.Core
 {
-    class UserAPI
+    public class UserAPI
     {
-        public bool UserSessionStatus()
+        internal ULoginResp UserLoginAction(ULoginData data)
         {
-            return true;
-        }
+            UDbTable result;
+            using (var db=new UserContext())
+            {
+                result = db.Users.FirstOrDefault(u => u.Username == data.Username && u.Password == data.Password);
+            }
+            if(result == null)
+            {
+                return new ULoginResp { Status = false, StatusMsg = "Something is wrong" };
+            }
+            return new ULoginResp { Status = true };
+        }   
+
     }
 }

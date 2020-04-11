@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace eUseControl.BusinessLogic.DBModel
 {
-    class UserContext: DbContext
+    public class UserContext: DbContext
     {
         public UserContext():
         base("name-eUseControl")//conection string name define in your web.config
