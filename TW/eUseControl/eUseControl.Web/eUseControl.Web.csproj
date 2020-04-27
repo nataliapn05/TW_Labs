@@ -362,6 +362,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\AdminModAtribute.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -412,6 +413,8 @@
     <Content Include="Views\Authentification\Index.cshtml" />
     <Content Include="Views\Authentification\Login.cshtml" />
     <Content Include="Views\Shared\_Nav.cshtml" />
+    <Content Include="Views\Shared\_Nav_Adm.cshtml" />
+    <Content Include="Views\Shared\_LayoutB.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -421,6 +424,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Admin\" />
     <Folder Include="Views\Profile\" />
     <Folder Include="Views\Register\" />
   </ItemGroup>
