@@ -11,6 +11,7 @@ namespace eUseControl.BusinessLogic.Interfaces
     {
         ULoginResp UserLogin(ULoginData data);
         //HttpCookie GenCookie(string loginCredential);
-       // UserMinimal GetUserByCookie(string apiCookieValue);
+        //UserMinimal GetUserByCookie(string apiCookieValue);
+        //ULogoutResp UserLogout(string user);
     }
 }

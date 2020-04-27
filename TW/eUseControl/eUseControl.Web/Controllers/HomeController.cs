@@ -13,7 +13,7 @@ namespace eUseControl.Web.Controllers
         {
             UserData u = new UserData();
             u.Username = "Customer";
-            u.Products = new List<string> { "Product #1", "Product #2" };
+            //u.Products = new List<string> { "Product #1", "Product #2" };
             return View(u);
         }
 

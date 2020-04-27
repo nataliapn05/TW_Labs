@@ -43,7 +43,7 @@ namespace eUseControl.Web.Controllers
             {
                 ULoginData data = new ULoginData
                 {
-                    Username= login.Username,
+                    Credential = login.Credential,
                     Password = login.Password,
                     LoginIp = Request.UserHostAddress,
                     LoginDateTime = DateTime.Now

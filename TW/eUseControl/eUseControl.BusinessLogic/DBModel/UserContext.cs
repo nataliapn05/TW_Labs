@@ -10,8 +10,7 @@ namespace eUseControl.BusinessLogic.DBModel
 {
     public class UserContext: DbContext
     {
-        public UserContext():
-        base("name-eUseControl")//conection string name define in your web.config
+        public UserContext(): base("name=eUseControl")//conection string name define in your web.config
         {
         }
         public virtual DbSet<UDbTable> Users { get; set; }

@@ -10,7 +10,7 @@ namespace eUseControl.BusinessLogic.DBModel
 {
     public class SessionContext:DbContext
     {
-        public SessionContext() : base("name=Bib")
+        public SessionContext() : base("name=eUseControl")
         {
         }
         public virtual DbSet<Session> Session { get; set; }
