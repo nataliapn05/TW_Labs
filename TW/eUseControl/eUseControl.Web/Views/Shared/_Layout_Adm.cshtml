@@ -1,0 +1,46 @@
+﻿@using System.Web.Optimization;
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Librio</title>
+    <div class="collapse navbar-collapse">
+  
+
+        @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+        @Styles.Render("~/Content/css")
+        @Styles.Render(" ~/Content/metisMenu")
+        @Styles.Render("~/Content/animate")
+
+        @Styles.Render("~/Content/pe-icon-7-stroke")
+        @Styles.Render("~/Content/helper")
+        @Styles.Render("~/Content/style")
+
+</head>
+<body>
+    @RenderBody()
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        @{ Html.RenderPartial("_Nav_Adm");}
+    </nav>
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+    @Scripts.Render("~/bundles/jquery.min")
+    @Scripts.Render("~/bundles/jquery-ui.min")
+    @Scripts.Render("~/bundles/jquery.slimscroll.min")
+    @Scripts.Render("~/bundles/bootstrap.min")
+    @Scripts.Render("~/bundles/metisMenu.min")
+    @Scripts.Render("~/bundles/icheck.min")
+    @Scripts.Render("~/bundles/index")
+
+    @Scripts.Render("~/bundles/homer")
+
+</body>
+</html>

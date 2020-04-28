@@ -390,7 +390,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <None Include="packages.config" />
-    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_Body.cshtml" />
@@ -415,6 +415,8 @@
     <Content Include="Views\Shared\_Nav.cshtml" />
     <Content Include="Views\Shared\_Nav_Adm.cshtml" />
     <Content Include="Views\Shared\_LayoutB.cshtml" />
+    <Content Include="Views\Shared\_Layout_Adm.cshtml" />
+    <Content Include="Views\Shared\_Body_Tab.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -424,9 +426,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Admin\" />
-    <Folder Include="Views\Profile\" />
-    <Folder Include="Views\Register\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
